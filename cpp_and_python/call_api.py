@@ -14,7 +14,7 @@ from urllib.request import urlopen
 # ゲームサーバのアドレス / トークン
 GAME_SERVER = os.getenv('GAME_SERVER', 'https://contest.2021-autumn.gbc.tenka1.klab.jp')
 # GAME_SERVER = 'https://contest.2021-autumn.gbc.tenka1.klab.jp/staging'  # 開発用環境
-TOKEN = os.getenv('TOKEN', 'YOUR_TOKEN')
+TOKEN = os.getenv('TOKEN', 'fec610ea262438244560d1511f63bf13')
 
 
 p = subprocess.Popen(sys.argv[1:], stdin=subprocess.PIPE, stdout=subprocess.PIPE)
